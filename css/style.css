@@ -1,13 +1,16 @@
 body {
   display: flex;
   flex-direction: column;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.header, .footer, .first-section {
   display: flex;
   color: white;
   background-color: #1f2937;
+}
+
+.header {
   justify-content: space-between;
   padding: 20px 200px;
 }
@@ -37,9 +40,6 @@ a {
 }
 
 .first-section{
-  display: flex;
-  background-color: #1f2937;
-  color: white;
   padding: 120px;
   justify-content: center;
   gap: 50px;
@@ -120,4 +120,69 @@ button {
   margin-top: 5px;
   color: rgb(94, 93, 93);
   font-size: 17px;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 120px 250px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.source {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.signup-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.signup-window {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 14px;
+  padding: 40px 90px;
+  color: white;
+  gap: 150px;
+}
+
+.signup-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.signup-button {
+  display: flex;
+  align-items: center;
+  border: 2px white solid;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+
 }
