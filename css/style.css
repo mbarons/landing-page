@@ -40,8 +40,9 @@ a {
   display: flex;
   background-color: #1f2937;
   color: white;
-  padding: 120px 200px;
-  justify-content: space-between;
+  padding: 120px;
+  justify-content: center;
+  gap: 50px;
 
 }
 
@@ -77,4 +78,46 @@ button {
   border: none;
   font-weight: 600;
   cursor: pointer;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.second-section-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 1000;
+  padding: 50px;
+}
+
+.second-section-body {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 142px;
+  gap: 145px;
+}
+
+.second-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-section-img {
+  border-radius: 15px;
+  border: 4px #3882f6 solid;
+  height: 150px;
+  width: 150px;
+}
+
+.second-section-text {
+  width: 150px;
+  text-align: center;
+  margin-top: 5px;
+  color: rgb(94, 93, 93);
+  font-size: 17px;
 }
