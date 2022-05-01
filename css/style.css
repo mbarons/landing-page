@@ -43,6 +43,7 @@ a {
   padding: 120px;
   justify-content: center;
   gap: 50px;
+  flex-wrap: wrap;
 
 }
 
@@ -60,6 +61,7 @@ a {
 .first-left-text {
   font-size: 18px;
   margin: 15px 0;
+  color: rgba(255, 255, 255, 0.801);
 }
 
 .first-right {
@@ -83,6 +85,7 @@ button {
 .second-section {
   display: flex;
   flex-direction: column;
+
 }
 
 .second-section-top {
@@ -99,6 +102,7 @@ button {
   justify-content: center;
   padding-bottom: 142px;
   gap: 145px;
+  flex-wrap: wrap;
 }
 
 .second-section-card {
